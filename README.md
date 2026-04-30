@@ -1,17 +1,17 @@
-# 🤖 Gemini CLI Chatbot
+# Gemini CLI Chatbot
 
 A simple stateful command-line chatbot powered by Google's Gemini 2.5 Flash model. Chat with an AI directly from your terminal with full conversation memory.
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - A [Google AI Studio](https://aistudio.google.com/) account with a Gemini API key
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 week1-2-cli/
@@ -22,7 +22,7 @@ week1-2-cli/
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 ### 1. Clone the repository
 
@@ -43,7 +43,7 @@ GEMINI_API_KEY=your_api_key_here
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ```bash
 python main.py
@@ -66,7 +66,7 @@ To exit, type `quit` or `exit`.
 ---
 
 
-## 📦 Dependencies
+## Dependencies
 
 | Package | Purpose |
 |---|---|
@@ -86,7 +86,7 @@ google-genai
 python-dotenv
 ``
 
-## 🚧 Known Limitations
+## Known Limitations
 
 - Conversation history is stored **in memory only** - it resets when you restart the script
 - No support for multi-turn file or image input in this version
@@ -94,6 +94,6 @@ python-dotenv
 
 ---
 
-## 📄 License
+## License
 
 MIT License - free to use and modify.
